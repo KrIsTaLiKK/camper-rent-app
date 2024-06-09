@@ -1,0 +1,16 @@
+.feature_tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  line-height: 1.25;
+
+  padding: 12px 18px;
+  border-radius: 100px;
+  color: var(--dark);
+  background-color: var(--light-grey);
+}
+
+.text {
+  line-height: 1.25;
+}

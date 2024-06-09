@@ -1,0 +1,43 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid rgba(16, 24, 40, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+  .item {
+    flex-direction: row;
+    gap: 24px;
+    padding: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .img_wrap {
+    min-width: 290px;
+    height: 310px;
+  }
+}
+
+.img {
+  width: 100%;
+}
+
+.info_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .info_wrap {
+    gap: 24px;
+  }
+}
+
+.btn {
+  width: 166px;
+}

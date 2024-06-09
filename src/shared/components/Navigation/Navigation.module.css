@@ -1,0 +1,9 @@
+.nav_list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.nav_link {
+  font-size: 30px;
+}

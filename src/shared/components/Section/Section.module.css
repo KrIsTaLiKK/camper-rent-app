@@ -1,0 +1,13 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 1440px) {
+  .section {
+    flex-direction: row;
+    gap: 64px;
+  }
+}
